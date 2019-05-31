@@ -6,34 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Coolie J Calihan</title>
     <!--External References-->
+    <link href="https://fonts.googleapis.com/css?family=Ramabhadra&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <div id="name">
-            <a id="card" href="index.html">Coolie J Calihan</a>
+    <section class="container">
+        <header>
+            <div id="nameCard">
+                <a href="index.html">Coolie J Calihan</a>
+            </div>
+            <nav>
+                <p> <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a> | <a href="assets/docs/Coolie Calihan - Cirriculum Vitae.pdf" target="_blank">C.V.</a></p>
+            </nav>
+        </header>
+    </section>
+
+    <section class="content">
+        <span><h2 class="sectionTitle">Contact</h2></span>
+        <div>
+            <form action="/action_page.php" method="get">
+                Name
+                <br>
+                <input class="singleLineInput" type="text" name="name">
+                <br><br>
+                Email
+                <br>
+                <input class="singleLineInput" type="text" name="email">
+                <br><br>
+                Message
+                <br>
+                <input id="messageInput" type="text" name="message">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
-        <div id="nav">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </header>
-    <div id="main">
-        Contact
+    </section>
 
-        <br><br>
-
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ea modi unde aut eos, placeat assumenda eaque natus, porro rerum quae officia culpa excepturi cum illum a inventore saepe dignissimos!
-
-        <br><br>
-
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero, blanditiis consequatur sequi consequuntur error dolor cum numquam repellat facilis sunt atque aut neque est quos nam quo nesciunt? Numquam.
-    </div>
-    <footer>
-        <div id="footer">
-            2019
-        </div>
-    </footer>
+    <section class="container">
+        <footer>
+            <p id="copy">Copyright 2019</p>
+        </footer>
+    </section>
 </body>
 </html>
