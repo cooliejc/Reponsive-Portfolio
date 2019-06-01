@@ -1,4 +1,4 @@
 <<<<<<< HEAD
-# bootstrap-portfolio
-Continuing the portfolio project with the Bootstrap framework.
+# Responsive-Portfolio
+Continuing the portfolio project by making it responsive in the Bootstrap framework.
 =======
