@@ -1,0 +1,149 @@
+/* globals */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+/* elements */
+
+body {    
+    background-color: #eee;
+    background-image: url(cartographer.png);
+}
+
+header, footer {
+    max-width: 749px;
+    height: 82px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background-color: #333;
+}
+
+nav {
+    color: #888;
+    background-color: salmon;
+    font-size: 16px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+form {
+    color: #eee;
+    position: relative;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+input[type=text] {
+    border: 2px solid #333;
+    border-radius: 4px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: salmon;
+    border: none;
+    color: #eee;
+    font-size: 16px;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* classes */
+
+.container {
+    width: 100%;
+    height: 82px;
+    background-color: #333;
+    position: relative;
+}
+
+.content {
+    max-width: 749px;
+    background-color: #333;
+    color: #eee;
+    padding: 20px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.imageCard {
+    margin: 1em;
+    display: inline-block;
+}
+
+.sectionTitle {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: 2px solid #eee;
+}
+
+.sectionText {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 14px;
+}
+
+.singleLineInput {
+    width: 100%;
+}
+
+
+/* pseudo classes */
+a:any-link {
+    text-decoration: none;
+    color: #eee;
+}
+
+a:hover {
+    color: orangered;
+    transition: 300ms;
+}
+
+a:active {
+    color: red;
+}
+
+input[type=text]:focus {
+    border: 3px solid salmon;
+    border-radius: 4px;
+  }
+
+/* ids */
+
+#nameCard {
+    background-color: salmon;
+    color: #eee;
+    font-size: 24px;
+    padding: 18px;
+    position: absolute;
+}
+
+#copy {
+    background-color: salmon;
+    color: #eee;
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+#headshot {
+    float: left;
+    width: 180px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#messageInput {
+    width: 100%;
+    height: 256px;
+}
